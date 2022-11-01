@@ -14,7 +14,7 @@ const SideBar = () => (
       <header>
         <h2>Gilan Serrant</h2>
         <p>
-          <a href="mailto:gilanserrant5@gmail.com">gilanserrant5@gmail.com</a>
+          <a href="mailto:gilserrant5@gmail.com">gilserrant5@gmail.com</a>
         </p>
       </header>
     </section>
@@ -22,15 +22,18 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Gilan. I like building things. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        Alumni, and the co-founder and CTO of{' '}
-        <a href="https://arthena.com">Arthena</a>. Before Arthena I was at{' '}
-        <a href="https://matroid.com">Matroid</a>,{' '}
-        <a href="https://planet.com">Planet</a>,{' '}
-        <a href="https://planetaryresources.com">Planetary Resources</a>,{' '}
-        <a href="https://facebook.com">Facebook</a>, and{' '}
-        <a href="https://seds.org">SEDS</a>.
+        Hi, I&apos;m Gilan. I am a full-stack software engineer continuing my
+        learning of web development with Python and JavaScript via Hack
+        Reactor’s software engineering boot camp. I have enjoyed working with
+        other technologies such as Arduino, programmable logic controllers,
+        Autodesk I have 3 years of work experience as an electrical engineer in
+        the MEP industry, where I spent time creating designs for residential
+        and commercial buildings, performing electrical and fire alarm
+        inspections, and commissioning critical systems. I am now looking
+        forward to continuing me career as a software engineer and an expert in
+        Web 2.0 technology in order to segue into Web 3.0, where I believe
+        cryptocurrencies, NFTs, and blockchain technology will drastically
+        change the world as we know it.
       </p>
       <ul className="actions">
         <li>
@@ -49,9 +52,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">
-        &copy; Gilan Serrant <Link to="/">mldangelo.com</Link>.
-      </p>
+      <p className="copyright">Gilan Serrant</p>
     </section>
   </section>
 );

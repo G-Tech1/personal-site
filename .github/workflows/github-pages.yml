@@ -24,9 +24,9 @@ jobs:
           # Remove this line if you would like to skip using google analytics
           REACT_APP_GA_TRACKING_ID: UA-68649021-1
           # This is set automatically by github
-          GITHUB_TOKEN: ${{ secrets.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 }}
+          GITHUB_TOKEN: ${{ secrets.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 }}
         run: |
           git config user.name "Automated"
           git config user.email "gilserrant5@gmail.com"
-          git remote set-url origin https://git:${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}@github.com/G-Tech1/personal-site.git
+          git remote set-url origin https://git:${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}@github.com/G-Tech1/personal-site.git
           npm run deploy

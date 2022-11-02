@@ -25,15 +25,19 @@ const data = [
     value: <Age />,
   },
   {
-    key: 'countries',
-    label: 'Countries visited',
-    value: 6,
-    link: '',
+    key: 'height',
+    label: 'Height',
+    value: "6'2",
   },
   {
     key: 'location',
     label: 'Current city',
-    value: 'New York, NY',
+    value: 'Brooklyn, NY',
+  },
+  {
+    key: 'countries',
+    label: 'Favorite Sports Team',
+    value: 'New York Knicks',
   },
 ];
 

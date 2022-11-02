@@ -22,16 +22,14 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Gilan. I am a full-stack software engineer continuing my
-        learning of web development with Python and JavaScript via Hack
-        Reactor’s software engineering boot camp. I have enjoyed working with
-        other technologies such as Arduino, programmable logic controllers,
-        Autodesk I have 3 years of work experience as an electrical engineer in
-        the MEP industry, where I spent time creating designs for residential
-        and commercial buildings, performing electrical and fire alarm
-        inspections, and commissioning critical systems. I am now looking
-        forward to continuing me career as a software engineer and an expert in
-        Web 2.0 technology in order to segue into Web 3.0, where I believe
+        Hi, I&apos;m Gilan. I am a full-stack software engineer adept at
+        building web applications using Django and React. I have enjoyed working
+        with other technologies such as Arduino, programmable logic controllers,
+        and Autodesk. I have 3 years of work experience as an electrical
+        engineer in the MEP industry where I spent time performing electrical
+        design, inspections, and commissioning critical systems. I have now
+        pivoted into the world of software where I plan on continuing to build
+        my skills in Web 2.0 and eventually segue into Web 3.0, where I believe
         cryptocurrencies, NFTs, and blockchain technology will drastically
         change the world as we know it.
       </p>

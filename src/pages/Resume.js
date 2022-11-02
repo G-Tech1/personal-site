@@ -12,19 +12,10 @@ import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
 import { skills, categories } from '../data/resume/skills';
 
-const sections = [
-  'Education',
-  'Experience',
-  'Skills',
-  'Projects',
-  'References',
-];
+const sections = ['Education', 'Experience', 'Skills', 'References'];
 
 const Resume = () => (
-  <Main
-    title="Resume"
-    description="Gilan Serrant's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet Labs, and Facebook."
-  >
+  <Main title="Resume" description="Gilan Serrant's Resume.">
     <article className="post" id="resume">
       <header>
         <div className="title">

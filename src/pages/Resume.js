@@ -5,14 +5,21 @@ import Main from '../layouts/Main';
 
 import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
+import Projects from '../components/Resume/PersonalProjects';
 import Skills from '../components/Resume/Skills';
 import References from '../components/Resume/References';
 
 import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
-import { skills, categories } from '../data/resume/skills';
+import projects from '../data/resume/projects';
 
-const sections = ['Education', 'Experience', 'Skills', 'References'];
+const sections = [
+  'Education',
+  'Experience',
+  'Personal Projects',
+  'Skills',
+  'References',
+];
 
 const Resume = () => (
   <Main title="Resume" description="Gilan Serrant's Resume.">
@@ -33,7 +40,8 @@ const Resume = () => (
       </header>
       <Education data={degrees} />
       <Experience data={positions} />
-      <Skills skills={skills} categories={categories} />
+      <Projects data={projects} />
+      <Skills />
       <References />
     </article>
   </Main>

@@ -1,6 +1,13 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Crypto World',
+    link: 'https://serrantcrypto.netlify.app/',
+    image: '/images/projects/cryptoworld.png',
+    date: '2022-11',
+    desc: 'Keep up with the latest crypto statistics and crypto news',
+  },
+  {
     title: 'Digital Dash',
     link: 'https://gitlab.com/gjkk/amazing-project',
     image: '/images/projects/digitaldash.jpeg',
@@ -12,7 +19,7 @@ const data = [
     link: 'https://gitlab.com/GTech_/car-management',
     image: '/images/projects/carmanage.jpeg',
     date: '2022-07-20',
-    desc: 'full-stack web application that enabled functions to include employee tracking, workflow management, and sales reporting, for a car dealership.',
+    desc: 'Full-stack web application that enabled functions to include employee tracking, workflow management, and sales reporting, for a car dealership.',
   },
   {
     title: 'Conference Go',
